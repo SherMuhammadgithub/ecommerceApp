@@ -1,0 +1,42 @@
+
+
+ 
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-20px); }
+    60% { transform: translateY(-10px); }
+  }
+  
+  .animation {
+    animation: bounce 2s infinite;
+  }
+
+
+
+  /* @keyframes scale {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+  }
+  
+  .text {
+    animation: scale 4s  linear infinite;
+  } */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .text {
+    animation: fadeIn 10s  linear infinite ;
+  }
+
+  /* @keyframes colorChange {
+    0% { color: purple; }
+    50% { color: blue; }
+    100% { color: black; }
+  }
+  
+  .text {
+    animation: colorChange 5s linear infinite;
+  } */

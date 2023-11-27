@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* body{
+  overflow-x: hidden;
+ 
+} */
+body {
+  /* Add transition for background color and other styles that change based on dark mode */
+  overflow-x: hidden;
+  transition: background-color 0.5s ease;
+  /* Add other body styles */
+}
+
+/* Update styles for elements with dynamic styles */
+/* For example, you can update your navbar and footer styles */
+nav {
+  /* Add transition for navbar styles that change based on dark mode */
+  transition: background-color 0.5s ease, color 0.5s ease;
+  /* Add other navbar styles */
+}
+
+footer {
+  /* Add transition for footer styles that change based on dark mode */
+  transition: background-color 0.5s ease, color 0.5s ease;
+  /* Add other footer styles */
+}
